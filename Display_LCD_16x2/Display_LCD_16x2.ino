@@ -16,7 +16,7 @@ int fim2 = tam2;
 //variáveis para cronômetro
 int conti, seg, i, m = 0; //variáveis para contagem do tempo
 
-void setup() {
+void setup() { //configuração
   lcd.begin(16, 2); //inicializa o display e informa dimensão (colunas,linhas)
   pinMode(30, INPUT_PULLUP); //botão 1 (cronômetro) com o resistor PULLUP do Arduino ativado, botão deve ser conectado ao GND
   pinMode(32, INPUT_PULLUP); //botão 2 (rolar texto)
