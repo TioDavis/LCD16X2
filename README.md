@@ -31,9 +31,9 @@
 <h3>O Projeto</h3>
 <p align=justify>O objetivo deste projeto é demonstrar alguns recursos que podem ser utilizados no display LCD 16x2. A primeira mensagem impressa no display solicita que uma tecla seja pressionada. São 4 botões e cada um resulta em uma ação diferente.
   <li align=justify><b>Botão 1:</b> inicia um cronômetro digital de 60 minutos, ou seja, zera após completar uma hora. Ele pode ser interrompido a qualquer momento quando acionado o botão 4.</li>
-  <li><b>Botão 2:</b> chama a função scroll que permite rolar o texto para os lados. Uma mensagem é apresentada e em seguida a mensagem é deslocada para a direita e depois para a esquerda. Pressionar o botão 4 para a rotina.</li>
-  <li><b>Botão 3:</b> outra função de rolagem de texto, no entanto há uma diferença: na rotina anterior todo o conteúdo do display rolava para os lados em conjunto, nesta as linhas rolam para lados opostos independentes uma da outra. Ou seja, enquanto a linha de cima rola para a esquerda, a linha de baixo rola para a direita. O processo para quando o botão 4 é pressionado.</li>
-  <li><b>Botão 4:</b> botão de reset. Para qualquer mensagem que esteja sendo apresentada no display e retorna à mensagem inicial.</li>
-<br>Vale ressaltar que o Arduino Mega possui resistores de pullup, assim dispensa o uso de resistores em conjunto com os push buttons. Neste caso os pinos digitais estão em nível lógico alto e os botões devem ser conectados ao GND. Quando acionados os pinos vão para nível lógico baixo.</p>
+  <li b>Botão 2:</b> chama a função scroll que permite rolar o texto para os lados. Uma mensagem é apresentada e em seguida a mensagem é deslocada para a direita e depois para a esquerda. Pressionar o botão 4 para a rotina.</li>
+  <li align=justify><b>Botão 3:</b> outra função de rolagem de texto, no entanto há uma diferença: na rotina anterior todo o conteúdo do display rolava para os lados em conjunto, nesta as linhas rolam para lados opostos independentes uma da outra. Ou seja, enquanto a linha de cima rola para a esquerda, a linha de baixo rola para a direita. O processo para quando o botão 4 é pressionado.</li>
+  <li align=justify><b>Botão 4:</b> botão de reset. Para qualquer mensagem que esteja sendo apresentada no display e retorna à mensagem inicial.</li>
+<br align=justify>Vale ressaltar que o Arduino Mega possui resistores de pullup, assim dispensa o uso de resistores em conjunto com os push buttons. Neste caso os pinos digitais estão em nível lógico alto e os botões devem ser conectados ao GND. Quando acionados os pinos vão para nível lógico baixo.</p>
 <p><b>Circuito do Projeto</b></p>
 <img src="Circuito Display.JPG">
