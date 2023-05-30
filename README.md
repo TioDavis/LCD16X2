@@ -20,6 +20,10 @@
   <tr align=center><td>RS</td><td>Seleção de comandos (0) ou dados (1)</td></tr>
   <tr align=center><td>R/W</td><td>Leitura (1) e escrita (0)</td></tr>
   <tr align=center><td>E</td><td>Ativa (1) / desativa (0) o display (Enable)</td></tr>
+  <tr align=center><td>DB0</td><td>Data bit 0</td></tr>
+  <tr align=center><td>DB1</td><td>Data bit 1</td></tr>
+  <tr align=center><td>DB2</td><td>Data bit 2</td></tr>
+  <tr align=center><td>DB3</td><td>Data bit 3</td></tr>
   <tr align=center><td>DB4</td><td>Data bit 4</td></tr>
   <tr align=center><td>DB5</td><td>Data bit 5</td></tr>
   <tr align=center><td>DB6</td><td>Data bit 6</td></tr>
@@ -34,6 +38,6 @@
   <li align=justify><b>Botão 2:</b> chama a função scroll que permite rolar o texto para os lados. Uma mensagem é apresentada e em seguida a mensagem é deslocada para a direita e depois para a esquerda. Pressionar o botão 4 para a rotina.</li>
   <li align=justify><b>Botão 3:</b> outra função de rolagem de texto, no entanto há uma diferença: na rotina anterior todo o conteúdo do display rolava para os lados em conjunto, nesta as linhas rolam para lados opostos independentes uma da outra. Ou seja, enquanto a linha de cima rola para a esquerda, a linha de baixo rola para a direita. O processo para quando o botão 4 é pressionado.</li>
   <li align=justify><b>Botão 4:</b> botão de reset. Para qualquer mensagem que esteja sendo apresentada no display e retorna à mensagem inicial.</li></p>
-<p align=justify><br>Vale ressaltar que o Arduino Mega possui resistores de pullup, assim dispensa o uso de resistores em conjunto com os push buttons. Neste caso os pinos digitais estão em nível lógico alto e os botões devem ser conectados ao GND. Quando acionados os pinos vão para nível lógico baixo.</p>
+<p align=justify>Vale ressaltar que o Arduino Mega possui resistores de pullup, assim dispensa o uso de resistores em conjunto com os push buttons. Neste caso os pinos digitais estão em nível lógico alto e os botões devem ser conectados ao GND. Quando acionados os pinos vão para nível lógico baixo.</p>
 <p><b>Circuito do Projeto</b></p>
 <img src="Circuito Display.JPG">
