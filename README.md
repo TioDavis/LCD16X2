@@ -27,4 +27,4 @@
   <tr align=center><td>A</td><td>Anodo da iluminação (5V)</td></tr>
   <tr align=center><td>K</td><td>Catodo da iluminação (GND)</td></tr>
 </table>
-<p>A comunicação serial necessita de apenas 4 pinos: <b>GND, VCC, SDA e SCL</b>. Já a comunicação serial exige mais portas: <b>RS, R/W, E </b>(pinos de controle)<b>, VDD, VSS </b>(alimentação)<b>, A, K </br></p>
+<p>A comunicação serial necessita de apenas 4 pinos: <b>GND, VCC, SDA e SCL</b>. Já a comunicação serial exige mais portas: <b>RS, R/W, E (pinos de controle), VDD, VSS (alimentação do módulo), A, K (alimentação do backlight), VO (controle do contraste), DB4, DB5, DB6 e DB7</br>.</p>
