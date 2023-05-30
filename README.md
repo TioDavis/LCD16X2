@@ -1,4 +1,4 @@
-<h1>LCD16X2 com Arduino</h1>
+<h1>LCD 16x2 com Arduino</h1>
 <h3>Introdução</h3>
 <p align=justify>Este projeto apenas demonstra algumas funcionalidades do LCD com Arduino. Para ser mais direto, são apresentados 4 exemplos: como exibir uma menagem no display 16x2 que atualiza o valor em tempo real, deslocar o texto para os lados, deslocar uma linha específica e limpar a tela para mostrar uma nova mensagem.</p>
 <h4>Materiais</h4>
